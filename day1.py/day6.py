@@ -11,7 +11,7 @@ while attempts <3:
         break
     else:
         print("Try again.")
-    attempts= attempts = 1
+    attempts= attempts + 1
 f = 0 
 while f<5:
     pin = int(input("enter your number:"))
