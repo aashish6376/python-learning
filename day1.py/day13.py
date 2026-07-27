@@ -38,6 +38,9 @@ if attempts == 0:
 attempts = 3
 while attempts > 0:
     username = input("Enter username: ").strip().upper()
+    if username.lower() == "exit":
+        print("Programe closed.")
+        break
     password = int(input("Enter password: "))
     if len(username) < 3:
         print("Invalid username.")
