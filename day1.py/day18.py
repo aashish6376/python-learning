@@ -12,3 +12,10 @@ for student in students:
 print(students[0])
 print(students[0]["name"])
 print(students[1]["Age"])
+employees = [
+    {"name": "Amit", "salary": 50000},
+    {"name": "Neha", "salary": 60000},
+    {"name": "Laxmi", "salary": 80000}
+]
+for employee in employees:
+    print(employee["name"],":", employee["salary"])
